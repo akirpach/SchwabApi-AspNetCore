@@ -1,0 +1,2 @@
+### Fetch available account numbers 
+GET https://127.0.0.1:5001/api/accounts/accountNumbers

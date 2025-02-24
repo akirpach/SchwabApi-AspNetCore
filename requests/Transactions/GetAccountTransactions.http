@@ -1,0 +1,8 @@
+### Get Account Transactions (Authenticated Request)
+
+@accountNumber = YOUR_HASHED_ACCOUNT_NUMBER
+@startDate = 2024-06-30
+@endDate = 2024-07-30
+@transactionType = TRADE
+GET https://127.0.0.1:5001/api/transactions/{{accountNumber}}?startDate={{startDate}}&endDate={{endDate}}&types={{transactionType}}
+Accept: application/json

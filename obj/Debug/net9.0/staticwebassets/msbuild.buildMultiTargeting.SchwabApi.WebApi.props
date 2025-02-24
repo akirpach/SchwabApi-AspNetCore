@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/SchwabApi.WebApi.props" />
+</Project>

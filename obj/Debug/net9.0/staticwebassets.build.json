@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "lvRrA2KoOR5pJ2xeCY9/TIwucRd59VFlLqv3vd6dX6M=",
+  "Source": "SchwabApi.WebApi",
+  "BasePath": "_content/SchwabApi.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

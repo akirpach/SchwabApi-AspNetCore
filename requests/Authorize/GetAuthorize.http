@@ -1,0 +1,12 @@
+### Step 1. Get Authorization URL - this will manually open up client's browser
+GET https://127.0.0.1:5001/api/auth/authorize
+Accept: application/json
+
+### Step 2. Exchange Authorization code for Access Token
+# Replace `AUTHORIZATION_CODE` with the actual code received after authorization
+# GET https://127.0.0.1:5001/api/auth/callback?code=AUTHORIZATION_CODE
+# Content-Type: application/x-www-form-urlencoded
+# {
+#     "grant_type": "authroization_code"
+
+# }
