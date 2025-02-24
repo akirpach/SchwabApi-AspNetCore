@@ -16,13 +16,19 @@ This is a web application that allows users to authenticate with their Schwab AP
    cd SchwabAPI.WebApi
    ```
 
-2. Set up environment variables:
+2. IMPORTANT: Retrieve your Schwab API developer credentials:
+   - Sign in to your Schwab Developer account at [Schwab Developer Portal](https://developer.schwab.com/).
+   - Navigate to the API credentials section.
+   - Create a new application if you haven't already.
+   - Note down your `client_id` and `client_secret`.
+
+3. Configure your environment variables in apsettings.json:
    ```sh
    export SCHWAB_API_CLIENT_ID="your-client-id"
    export SCHWAB_API_SECRET_ID="your-secret-id"
    ```
 
-3. Restore dependencies and run the application:
+4. Restore dependencies and run the application:
    ```sh
    dotnet restore
    dotnet run
@@ -30,7 +36,12 @@ This is a web application that allows users to authenticate with their Schwab AP
 
 ### Usage
 
-After running the application, navigate to `http://localhost:5000` in your browser to access the web app.
+1. After running the application, navigate to `http://127.0.0.1:5001` in your browser to access the web app.
+2. In project directory navigate to requests/Authorize/GetAuthorize.http
+3. Execute the above request. This will authorize your account and provide access token which is stored in token store locally.
+4. Navigate to requests/Accounts/getAccountNumbers.http and execute this request. This will return you a hashed account number(s) associated with your Schwab API.
+5. Navigate to requests/Transactions/GetAccountTransactions.http and configure the @accountNumber variable with value provided from previous step. Now you're ready to retrieve account transactions!
+
 
 ## Contributing
 
