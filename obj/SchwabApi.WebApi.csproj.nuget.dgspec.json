@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/garcondeua/Desktop/dev/SchwabApi/SchwabApi.WebApi/SchwabApi.WebApi.csproj": {}
+    "/Users/garcondeua/Desktop/dev/SchwabApi-AspNetCore/SchwabApi.WebApi.csproj": {}
   },
   "projects": {
-    "/Users/garcondeua/Desktop/dev/SchwabApi/SchwabApi.WebApi/SchwabApi.WebApi.csproj": {
+    "/Users/garcondeua/Desktop/dev/SchwabApi-AspNetCore/SchwabApi.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/garcondeua/Desktop/dev/SchwabApi/SchwabApi.WebApi/SchwabApi.WebApi.csproj",
+        "projectUniqueName": "/Users/garcondeua/Desktop/dev/SchwabApi-AspNetCore/SchwabApi.WebApi.csproj",
         "projectName": "SchwabApi.WebApi",
-        "projectPath": "/Users/garcondeua/Desktop/dev/SchwabApi/SchwabApi.WebApi/SchwabApi.WebApi.csproj",
+        "projectPath": "/Users/garcondeua/Desktop/dev/SchwabApi-AspNetCore/SchwabApi.WebApi.csproj",
         "packagesPath": "/Users/garcondeua/.nuget/packages/",
-        "outputPath": "/Users/garcondeua/Desktop/dev/SchwabApi/SchwabApi.WebApi/obj/",
+        "outputPath": "/Users/garcondeua/Desktop/dev/SchwabApi-AspNetCore/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/garcondeua/.nuget/NuGet/NuGet.Config"

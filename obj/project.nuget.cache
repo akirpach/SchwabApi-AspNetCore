@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "A+hAAzxglBs=",
+  "dgSpecHash": "re6zR9oJ/WE=",
   "success": true,
-  "projectFilePath": "/Users/garcondeua/Desktop/dev/SchwabApi/SchwabApi.WebApi/SchwabApi.WebApi.csproj",
+  "projectFilePath": "/Users/garcondeua/Desktop/dev/SchwabApi-AspNetCore/SchwabApi.WebApi.csproj",
   "expectedPackageFiles": [
     "/Users/garcondeua/.nuget/packages/microsoft.aspnetcore.openapi/9.0.1/microsoft.aspnetcore.openapi.9.0.1.nupkg.sha512",
     "/Users/garcondeua/.nuget/packages/microsoft.entityframeworkcore/9.0.2/microsoft.entityframeworkcore.9.0.2.nupkg.sha512",
