@@ -22,10 +22,15 @@ This is a web application that allows users to authenticate with their Schwab AP
    - Create a new application if you haven't already.
    - Note down your `client_id` and `client_secret`.
 
-3. Configure your environment variables in apsettings.json:
+3. Configure your environment variables in appsettings.json:
    ```sh
-   export SCHWAB_API_CLIENT_ID="your-client-id"
-   export SCHWAB_API_SECRET_ID="your-secret-id"
+   "AllowedHosts": "*",
+   "SchwabApi": {
+      "ClientId": [CLIENT_ID_STRING],
+      "ClientSecret": [CLIENT_SECRET_STRING],
+      "RedirectUri": "https://127.0.0.1:5001/api/auth/callback", <-- Validate this in your Schwab Dev Portal.
+      "TokenUrl": "https://api.schwabapi.com/v1/oauth/token",
+      "AuthorizeUrl": "https://api.schwabapi.com/v1/oauth/authorize"
    ```
 
 4. Restore dependencies and run the application:
