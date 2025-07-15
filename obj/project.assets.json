@@ -1145,24 +1145,31 @@
     ]
   },
   "packageFolders": {
-    "/Users/garcondeua/.nuget/packages/": {}
+    "C:\\Users\\u144455\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/garcondeua/Desktop/dev/SchwabApi-AspNetCore/SchwabApi.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\u144455\\dev\\SchwabApi-AspNetCore-LEGACY\\SchwabApi.WebApi.csproj",
       "projectName": "SchwabApi.WebApi",
-      "projectPath": "/Users/garcondeua/Desktop/dev/SchwabApi-AspNetCore/SchwabApi.WebApi.csproj",
-      "packagesPath": "/Users/garcondeua/.nuget/packages/",
-      "outputPath": "/Users/garcondeua/Desktop/dev/SchwabApi-AspNetCore/obj/",
+      "projectPath": "C:\\Users\\u144455\\dev\\SchwabApi-AspNetCore-LEGACY\\SchwabApi.WebApi.csproj",
+      "packagesPath": "C:\\Users\\u144455\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\u144455\\dev\\SchwabApi-AspNetCore-LEGACY\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/garcondeua/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\u144455\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1181,7 +1188,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net9.0": {
@@ -1223,7 +1230,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

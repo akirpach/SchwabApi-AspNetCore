@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SchwabApi.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1e044c5ece951145b3f8dd786c1355770382e25c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5470fbc50547bd4e90a41284623cb3c68a2979ae")]
 [assembly: System.Reflection.AssemblyProductAttribute("SchwabApi.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SchwabApi.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
